@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="css/wzc.css"/>
+</head>
+<body>
+<div id="main">
+    <div class="class">
+        <span>按钮：</span> <br/>
+        <span>默认:</span>
+        <button  class="button-def" type="submit">按钮</button>
+        <button  class="button-def biger">按钮</button>
+        <button  class="button-def more">多字按钮</button>
+        <button  class="button-def">test</button>
+        <br/>
+        <span>普通:</span>
+        <button  class="button-blue">按钮</button>
+        <button  class="button-blue biger">按钮</button>
+        <button  class="button-blue more">多字按钮</button>
+        <button  class="button-blue">test</button>
+        <br/>
+        <span>成功:</span>
+        <button  class="button-green">按钮</button>
+        <button  class="button-green biger">按钮</button>
+        <button  class="button-green more">多字按钮</button>
+        <button  class="button-green">test</button>
+        <br/>
+        <span>警告:</span>
+        <button  class="button-yel">按钮</button>
+        <button  class="button-yel biger">按钮</button>
+        <button  class="button-yel more">多字按钮</button>
+        <button  class="button-yel">test</button>
+        <br/>
+        <span>危险:</span>
+        <button  class="button-red">按钮</button>
+        <button  class="button-red biger">按钮</button>
+        <button  class="button-red more">多字按钮</button>
+        <button  class="button-red">test</button>
+    </div>
+    <div class="class">
+        <span>button group:</span><br/>
+        <button class="group group-left test">按钮1</button
+        ><button class="group test">按钮2</button
+        ><button class="group test">按钮3</button
+        ><button class="group test">按钮4</button
+        ><button class="group test group-right">按钮5</button>
+    </div>
+    <div class="class">
+        <span>输入框</span><br/>
+        <label for="name">姓名：</label>
+        <input class="input" type="text" name="name" placeholder="请输入姓名"/><br/>
+        <label for="sex">性别：</label>
+        <input class="input" type="text" name="sex" placeholder="请输入性别"/><br/>
+        <label for="age">年龄：</label>
+        <input class="input" type="text" name="age" placeholder="请输入年龄"/>
+        <br/>
+        <span>禁止输入框</span><br/>
+        <label for="name">姓名：</label>
+        <input class="input" type="text" name="name" placeholder="请输入姓名" disabled/><br/>
+        <label for="sex">性别：</label>
+        <input class="input" type="text" name="sex" placeholder="请输入性别" disabled/><br/>
+        <label for="age">年龄：</label>
+        <input class="input" type="text" name="age" placeholder="请输入年龄" disabled/>
+        <br/>
+        <span>多行输入框：</span>
+        <br/>
+        <label for="mes">留言板:</label>
+        <textarea name="mes" class="area" placeholder="请输入内容" cols="60" rows="10"></textarea>
+        <br/>
+        <label for="full">100%留言板:</label>
+        <textarea name="full" class="area fullarea" placeholder="请输入内容" rows="5" ></textarea>
+        <br/>
+        <span>inputgroup</span><br/>
+        <input class="input inputgroup" type="text"  placeholder="请输入内容" /
+        ><input class="input inputgroup" type="text"  placeholder="请输入内容" /
+        ><input class="input inputgroup" type="text"  placeholder="请输入内容" /
+        ><input class="input inputgroup" type="text"  placeholder="请输入内容" /
+        ><input class="input inputgroup" type="text"  placeholder="请输入内容" />
+        <br/>
+        <input class="input inputgroup vertical" type="text"  placeholder="请输入内容" /
+        ><input class="input inputgroup vertical" type="text"  placeholder="请输入内容" /
+        ><input class="input inputgroup vertical" type="text"  placeholder="请输入内容" /
+        ><input class="input inputgroup vertical" type="text"  placeholder="请输入内容" /
+        ><input class="input inputgroup vertical" type="text"  placeholder="请输入内容" />
+    </div>
+    <div class="class">
+        <select>
+            <option value="选项select option 1">选项select option 1</option>
+            <option value="选项select option 2">选项select option 2</option>
+            <option value="选项select option 3">选项select option 3</option>
+            <option value="选项select option 4">选项select option 4</option>
+
+        </select>
+    </div>
+    <div class="class">
+        <button id="box" class="button-blue more">弹出层</button>
+
+    </div>
+</div>
+<div class="box">
+    <div class="tit"><img src="img/p9.jpg" style="width:20px;height:20px;position:absolute;right:0px;" alt=""></div>
+</div>
+<OBJECT id=myColor CLASSID="clsid:3050f819-98b5-11cf-bb82-00aa00bdce0b" 
+width="0px" height="0px"></OBJECT>
+<script type="text/javascript"  data-main="js/wzc.js" src="js/require.js"></script>
+</body>
+</html>
